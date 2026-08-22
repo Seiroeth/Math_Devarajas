@@ -1,0 +1,37 @@
+{
+  "K_max": 1.6047933789666402,
+  "V_max": 1.2462663581574853,
+  "s_star": 14.479969602033774,
+  "controlling_handle": 3,
+  "controlling_handle_name": "第3节龙身",
+  "controlling_segment": "第一段圆弧",
+  "head_segment": "盘出螺线",
+  "head_s_beyond_B": 0.8587246952126542,
+  "interval": {
+    "s_start": -10.0,
+    "s_end": 393.3171658969135,
+    "span0": 369.69592099009236,
+    "tail_at_start": -379.6437296872711,
+    "tail_at_end": 23.696604878563807
+  },
+  "halving": {
+    "grid_max": 1.6038357577666356,
+    "refined_k": 1.6047933789666358,
+    "refined_s": 14.479969577220679,
+    "stable": true
+  },
+  "verification": {
+    "chord_residual": 1.4055423491754482e-13,
+    "fd_max_relative": 3.155173820235836e-08,
+    "back_max_at_vmax": 2.0,
+    "over_limit_at_vmax_plus": 2.000002
+  },
+  "reference": {
+    "amplification": 1.6047933789667035,
+    "s_head": 14.47996957722191,
+    "handle_index": 3,
+    "max_head_speed": 1.2462663581574362,
+    "grid_max": 1.603835757766475
+  },
+  "elapsed": 124.9564471244812
+}

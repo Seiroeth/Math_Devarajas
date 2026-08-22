@@ -1,0 +1,15 @@
+{
+  "uav": "FY1",
+  "mode": "quick",
+  "generation": 35,
+  "best_duration_fast": 4.542886784334968,
+  "best_x": [
+    176.643,
+    70.0,
+    0.0,
+    2.49705
+  ],
+  "convergence": 0.0007900343698456574,
+  "elapsed_seconds": 3.0948352813720703,
+  "updated_at": "2026-08-23T01:11:24"
+}

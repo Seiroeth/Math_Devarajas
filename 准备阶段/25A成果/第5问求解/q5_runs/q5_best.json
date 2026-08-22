@@ -1,0 +1,312 @@
+{
+  "mode": "strict_continuous_target_rings",
+  "generated_at": "2026-08-23T02:10:29",
+  "objective_definition": "sum of union full-cover durations for M1, M2 and M3",
+  "missiles": {
+    "M1": {
+      "hit_time": 66.99917080747261,
+      "independent_intervals": [
+        [
+          5.2124103236,
+          12.8314479945
+        ]
+      ],
+      "independent_duration": 7.619037670899999,
+      "cooperative_surface_points": 16922,
+      "cooperative_intervals": [
+        [
+          5.212409419,
+          12.831447994
+        ]
+      ],
+      "cooperative_duration": 7.619038574999999,
+      "cooperative_gain": 9.041000001985822e-07
+    },
+    "M2": {
+      "hit_time": 63.75038126247647,
+      "independent_intervals": [
+        [
+          7.5093012782,
+          11.4619124975
+        ],
+        [
+          12.5369344922,
+          16.3993558206
+        ],
+        [
+          27.8046994165,
+          30.702138935
+        ]
+      ],
+      "independent_duration": 10.7124720662,
+      "cooperative_surface_points": 16922,
+      "cooperative_intervals": [
+        [
+          7.509301226,
+          11.461913309
+        ],
+        [
+          12.536931765,
+          16.399355825
+        ],
+        [
+          27.804693283,
+          30.702140995
+        ]
+      ],
+      "cooperative_duration": 10.712483855000002,
+      "cooperative_gain": 1.1788800001966138e-05
+    },
+    "M3": {
+      "hit_time": 60.36647340296691,
+      "independent_intervals": [
+        [
+          13.3730066834,
+          17.0945798324
+        ]
+      ],
+      "independent_duration": 3.721573149000001,
+      "cooperative_surface_points": 16922,
+      "cooperative_intervals": [
+        [
+          13.373002703,
+          17.09458066
+        ]
+      ],
+      "cooperative_duration": 3.721577956999999,
+      "cooperative_gain": 4.807999998135415e-06
+    }
+  },
+  "independent_total": 22.0530828861,
+  "bombs": [
+    {
+      "uav": "FY1",
+      "missile": "M1",
+      "heading_deg": 179.65,
+      "speed": 140.0,
+      "drop_time": 0.0,
+      "fuse_delay": 3.605,
+      "bomb_id": 1,
+      "explosion_time": 3.605,
+      "drop_point": [
+        17800.0,
+        0.0,
+        1800.0
+      ],
+      "explosion_point": [
+        17295.309416570937,
+        3.083017682975239,
+        1736.3194775
+      ],
+      "assigned_intervals": [
+        [
+          5.2124103236,
+          9.0567561586
+        ]
+      ],
+      "assigned_duration": 3.8443458350000004
+    },
+    {
+      "uav": "FY1",
+      "missile": "M1",
+      "heading_deg": 179.65,
+      "speed": 140.0,
+      "drop_time": 3.7167561586,
+      "fuse_delay": 5.34,
+      "bomb_id": 2,
+      "explosion_time": 9.056756158599999,
+      "drop_point": [
+        17279.663846283664,
+        3.17859222198916,
+        1800.0
+      ],
+      "explosion_point": [
+        16532.07779482425,
+        7.74539234046011,
+        1660.27356
+      ],
+      "assigned_intervals": [
+        [
+          9.056756158599999,
+          11.6385843731
+        ]
+      ],
+      "assigned_duration": 2.5818282145000016
+    },
+    {
+      "uav": "FY1",
+      "missile": "M1",
+      "heading_deg": 179.65,
+      "speed": 140.0,
+      "drop_time": 5.5885843731,
+      "fuse_delay": 6.05,
+      "bomb_id": 3,
+      "explosion_time": 11.638584373099999,
+      "drop_point": [
+        17017.61278563041,
+        4.77939096950524,
+        1800.0
+      ],
+      "explosion_point": [
+        16170.628588752234,
+        9.953387358409593,
+        1620.64775
+      ],
+      "assigned_intervals": [
+        [
+          11.638584373099999,
+          12.8314479945
+        ]
+      ],
+      "assigned_duration": 1.1928636214000008
+    },
+    {
+      "uav": "FY2",
+      "missile": "M2",
+      "heading_deg": 293.8797956,
+      "speed": 139.99421745,
+      "drop_time": 5.50500146,
+      "fuse_delay": 2.00422709,
+      "bomb_id": 1,
+      "explosion_time": 7.50922855,
+      "drop_point": [
+        12311.981326781399,
+        695.3033344062272,
+        1400.0
+      ],
+      "explosion_point": [
+        12425.565570355682,
+        438.7417044633153,
+        1380.3170614813796
+      ],
+      "assigned_intervals": [
+        [
+          7.5093012782,
+          11.4619124975
+        ]
+      ],
+      "assigned_duration": 3.9526112193000005
+    },
+    {
+      "uav": "FY2",
+      "missile": "M2",
+      "heading_deg": 293.8797956,
+      "speed": 139.99421745,
+      "drop_time": 6.65043742,
+      "fuse_delay": 0.97895505,
+      "bomb_id": 2,
+      "explosion_time": 7.62939247,
+      "drop_point": [
+        12376.895865522307,
+        548.6757798945156,
+        1400.0
+      ],
+      "explosion_point": [
+        12432.37554115501,
+        423.35948987827555,
+        1395.3040703493896
+      ],
+      "assigned_intervals": [
+        [
+          12.5369344922,
+          16.3993558206
+        ]
+      ],
+      "assigned_duration": 3.8624213284
+    },
+    {
+      "uav": "FY3",
+      "missile": "M2",
+      "heading_deg": 86.80310596231972,
+      "speed": 133.4,
+      "drop_time": 24.29,
+      "fuse_delay": 0.3,
+      "bomb_id": 1,
+      "explosion_time": 24.59,
+      "drop_point": [
+        6180.702261212722,
+        235.24343049925847,
+        700.0
+      ],
+      "explosion_point": [
+        6182.934071767017,
+        275.2011509253507,
+        699.559
+      ],
+      "assigned_intervals": [
+        [
+          27.8046994165,
+          30.702138935
+        ]
+      ],
+      "assigned_duration": 2.8974395185000006
+    },
+    {
+      "uav": "FY4",
+      "missile": "M2",
+      "heading_deg": 237.6055976407524,
+      "speed": 81.6,
+      "drop_time": 12.54,
+      "fuse_delay": 11.86,
+      "bomb_id": 1,
+      "explosion_time": 24.4,
+      "drop_point": [
+        10451.792140618314,
+        1135.9760671091633,
+        1800.0
+      ],
+      "explosion_point": [
+        9933.311661171201,
+        318.8051066557882,
+        1110.7679600000001
+      ],
+      "assigned_intervals": [
+        [
+          27.8544709627,
+          30.4453712227
+        ]
+      ],
+      "assigned_duration": 2.5909002600000015
+    },
+    {
+      "uav": "FY5",
+      "missile": "M3",
+      "heading_deg": 116.37753910706417,
+      "speed": 140.0,
+      "drop_time": 11.808152214609857,
+      "fuse_delay": 1.0403723078137124,
+      "bomb_id": 1,
+      "explosion_time": 12.848524522423569,
+      "drop_point": [
+        12265.535747678534,
+        -518.9738513313064,
+        1300.0
+      ],
+      "explosion_point": [
+        12200.82483818933,
+        -388.486153999924,
+        1294.6963647595585
+      ],
+      "assigned_intervals": [
+        [
+          13.3730066834,
+          17.0945798324
+        ]
+      ],
+      "assigned_duration": 3.721573149000001
+    }
+  ],
+  "constraints": {
+    "valid": true,
+    "max_bombs_per_uav": 3,
+    "minimum_drop_gap": 1.0,
+    "same_heading_speed_per_uav": true
+  },
+  "cooperative_total": 22.053100387,
+  "run": {
+    "mode": "verify",
+    "iterations": 8,
+    "seed": 2025,
+    "elapsed_seconds": 18.567832000000635
+  }
+}
