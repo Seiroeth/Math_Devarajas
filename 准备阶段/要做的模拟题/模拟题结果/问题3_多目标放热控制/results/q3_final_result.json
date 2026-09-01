@@ -1,0 +1,21 @@
+{
+  "status": "infeasible",
+  "conclusion": "q_k=0仍使T1跌破500℃，因此不存在满足连续温度约束的48段控制策略。",
+  "q0_min_T1_C": 373.80043060746976,
+  "q0_margin_C": -126.19956939253024,
+  "demand_energy_MWh": 81.5,
+  "initial_usable_energy_GJ": 80.5818515645782,
+  "best_diagnostic_name": "零流量可行性证书",
+  "best_diagnostic": {
+    "rmse_mw": 21.62463872530591,
+    "max_abs_deviation_mw": 32.0,
+    "undersupply_mwh": 81.5,
+    "pump_energy_kwh": 0.0,
+    "min_T1_c": 373.80043060746976,
+    "temperature_margin_c": -126.19956939253024,
+    "ramp_violation": 0.0
+  },
+  "K_W_K": 27973.462069738016,
+  "UA_W_K": 1798.8274920993108,
+  "verification_dt_s": 10
+}

@@ -1,0 +1,13 @@
+{
+  "rho_kg_m3": 1800.0,
+  "cp_J_kgK": 1500.0,
+  "Us_W_m2K": 3.2,
+  "keff_W_mK": 95.0,
+  "seeds": [
+    202604,
+    202605,
+    202606
+  ],
+  "optimization_dt_s": 60,
+  "verification_dt_s": 10
+}

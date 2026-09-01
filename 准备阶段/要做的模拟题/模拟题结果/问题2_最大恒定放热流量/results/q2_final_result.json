@@ -1,0 +1,36 @@
+{
+  "status": "infeasible",
+  "conclusion": "在问题1辨识参数与题面初始条件下，q=0也无法维持T1>=515℃至3h，因此不存在满足全部连续约束的恒定放热流量。",
+  "q_max_kg_s": null,
+  "diagnostic_best_q_kg_s": 0.0,
+  "q0_margins": {
+    "top_margin_c": -105.27504581707285,
+    "top_time_s": 10800.0,
+    "diff_margin_c": 50.0,
+    "diff_time_s": 0.0,
+    "diff_pair": 4
+  },
+  "q0_top_temperature_at_3h_c": 409.72495418298854,
+  "q0_max_adjacent_difference_c": 100.0,
+  "feasible_effective_heat": null,
+  "diagnostic_q0_heat": {
+    "J": 0.0,
+    "GJ": 0.0,
+    "MWh": 0.0,
+    "note": "q=0仍不可行，不是题目要求的有效放热方案"
+  },
+  "parameter_recovery_thresholds": {
+    "UA_scale_if_K_zero": 0.42423317366162167,
+    "K_scale_if_UA_zero": 0.8511196385263647,
+    "common_scale_K_and_UA": 0.2900387869235936
+  },
+  "solver_cross_check": {
+    "max_abs_difference_C": 1.4287024896475486e-09,
+    "runtime_s": 0.0059840999999991595,
+    "rtol": 1e-11,
+    "atol": 1e-12
+  },
+  "K_W_per_K": 27973.462069738016,
+  "UA_W_per_K": 1798.8274920993108,
+  "verification_step_s": 0.5
+}

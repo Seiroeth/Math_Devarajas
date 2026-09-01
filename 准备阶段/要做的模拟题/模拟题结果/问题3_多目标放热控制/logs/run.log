@@ -1,0 +1,107 @@
+{
+  "config": {
+    "K_W_K": 27973.462069738016,
+    "UA_W_K": 1798.8274920993108,
+    "initial_C": [
+      565.0,
+      555.0,
+      520.0,
+      430.0,
+      330.0
+    ],
+    "Tin_C": 290.0,
+    "Ta_C": 25.0,
+    "control_intervals": 48,
+    "interval_s": 300,
+    "optimization_dt_s": 60,
+    "verification_dt_s": 10,
+    "seeds": [
+      202603,
+      202604,
+      202605
+    ]
+  },
+  "result": {
+    "status": "infeasible",
+    "conclusion": "q_k=0仍使T1跌破500℃，因此不存在满足连续温度约束的48段控制策略。",
+    "q0_min_T1_C": 373.80043060746976,
+    "q0_margin_C": -126.19956939253024,
+    "demand_energy_MWh": 81.5,
+    "initial_usable_energy_GJ": 80.5818515645782,
+    "best_diagnostic_name": "零流量可行性证书",
+    "best_diagnostic": {
+      "rmse_mw": 21.62463872530591,
+      "max_abs_deviation_mw": 32.0,
+      "undersupply_mwh": 81.5,
+      "pump_energy_kwh": 0.0,
+      "min_T1_c": 373.80043060746976,
+      "temperature_margin_c": -126.19956939253024,
+      "ramp_violation": 0.0
+    },
+    "K_W_K": 27973.462069738016,
+    "UA_W_K": 1798.8274920993108,
+    "verification_dt_s": 10
+  },
+  "runs": [
+    {
+      "algorithm": "加权和-SLSQP",
+      "seed": 202603,
+      "runtime_s": 13.168683,
+      "success": true,
+      "rmse_mw": 21.62463872530591,
+      "pump_kwh": 0.0,
+      "min_T1_c": 373.8004306076238,
+      "constraint_violation_c": 126.19956939237619
+    },
+    {
+      "algorithm": "多目标进化(NSGA-II结构)",
+      "seed": 202603,
+      "runtime_s": 2.033216300000001,
+      "success": false,
+      "rmse_mw": 20.51628260586038,
+      "pump_kwh": 478.59083692196583,
+      "min_T1_c": 274.2295588350767,
+      "constraint_violation_c": 225.77044116492328
+    },
+    {
+      "algorithm": "加权和-SLSQP",
+      "seed": 202604,
+      "runtime_s": 13.2169083,
+      "success": true,
+      "rmse_mw": 21.62463872530591,
+      "pump_kwh": 0.0,
+      "min_T1_c": 373.8004306076238,
+      "constraint_violation_c": 126.19956939237619
+    },
+    {
+      "algorithm": "多目标进化(NSGA-II结构)",
+      "seed": 202604,
+      "runtime_s": 2.0205117,
+      "success": false,
+      "rmse_mw": 20.657069802624815,
+      "pump_kwh": 477.6703965891275,
+      "min_T1_c": 274.3864088525737,
+      "constraint_violation_c": 225.6135911474263
+    },
+    {
+      "algorithm": "加权和-SLSQP",
+      "seed": 202605,
+      "runtime_s": 13.197572699999998,
+      "success": true,
+      "rmse_mw": 21.62463872530591,
+      "pump_kwh": 0.0,
+      "min_T1_c": 373.8004306076238,
+      "constraint_violation_c": 126.19956939237619
+    },
+    {
+      "algorithm": "多目标进化(NSGA-II结构)",
+      "seed": 202605,
+      "runtime_s": 2.0503006,
+      "success": false,
+      "rmse_mw": 20.211576877714332,
+      "pump_kwh": 400.3495130147028,
+      "min_T1_c": 274.2618513274247,
+      "constraint_violation_c": 225.73814867257528
+    }
+  ]
+}

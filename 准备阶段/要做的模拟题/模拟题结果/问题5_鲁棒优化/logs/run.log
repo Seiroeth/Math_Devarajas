@@ -1,0 +1,113 @@
+{
+  "config": {
+    "Us_range_scale": [
+      0.85,
+      1.15
+    ],
+    "keff_range_scale": [
+      0.8,
+      1.2
+    ],
+    "Ta_range_C": [
+      15,
+      35
+    ],
+    "lhs_samples": 1000,
+    "seeds": [
+      202605,
+      202606,
+      202607
+    ],
+    "dt_s": 60
+  },
+  "result": {
+    "status": "infeasible",
+    "conclusion": "Nominal Q4 feasible set is empty; scenario and robust feasible sets are therefore empty. Endpoint, adaptive worst-case, and 1000-point LHS tests all fail.",
+    "nominal_diagnostic": {
+      "us_scale": 1.0,
+      "keff_scale": 1.0,
+      "Ta_C": 25.0,
+      "undersupply_MWh": 50.847838221071015,
+      "min_T1_C": 288.9268704318427,
+      "outlet_margin_C": -211.0731295681573,
+      "terminal_ratio": -0.00351718984800659,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    },
+    "worst_endpoint_or_adaptive": {
+      "us_scale": 1.15,
+      "keff_scale": 0.8,
+      "Ta_C": 15.0,
+      "undersupply_MWh": 50.976301789366396,
+      "min_T1_C": 288.7030854317325,
+      "outlet_margin_C": -211.29691456826748,
+      "terminal_ratio": -0.0042176347804311985,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    },
+    "lhs_samples": 1000,
+    "lhs_failure_rate": 1.0,
+    "failure_rate_95pct_CI": [
+      0.9963179161031344,
+      1.0
+    ],
+    "worst_lhs_sample": {
+      "us_scale": 1.1445811744168857,
+      "keff_scale": 1.0111753045065537,
+      "Ta_C": 15.756859884048213,
+      "undersupply_MWh": 50.970848897869026,
+      "min_T1_C": 288.71742829989137,
+      "outlet_margin_C": -211.28257170010863,
+      "terminal_ratio": -0.004181887332949828,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    },
+    "surface_increment_m2": null,
+    "pump_increment_kWh": null,
+    "note": "Robust cost premiums are undefined because there is no nominal feasible solution."
+  },
+  "adaptive_runs": [
+    {
+      "method": "adaptive_worst_case_DE",
+      "seed": 202605,
+      "runtime_s": 3.3221881,
+      "us_scale": 1.15,
+      "keff_scale": 0.8,
+      "Ta_C": 15.0,
+      "undersupply_MWh": 50.976301789366396,
+      "min_T1_C": 288.7030854317325,
+      "outlet_margin_C": -211.29691456826748,
+      "terminal_ratio": -0.0042176347804311985,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    },
+    {
+      "method": "adaptive_worst_case_DE",
+      "seed": 202606,
+      "runtime_s": 3.3783973000000005,
+      "us_scale": 1.15,
+      "keff_scale": 0.8,
+      "Ta_C": 15.0,
+      "undersupply_MWh": 50.976301789366396,
+      "min_T1_C": 288.7030854317325,
+      "outlet_margin_C": -211.29691456826748,
+      "terminal_ratio": -0.0042176347804311985,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    },
+    {
+      "method": "adaptive_worst_case_DE",
+      "seed": 202607,
+      "runtime_s": 3.475514499999999,
+      "us_scale": 1.15,
+      "keff_scale": 0.8,
+      "Ta_C": 15.0,
+      "undersupply_MWh": 50.976301789366396,
+      "min_T1_C": 288.7030854317325,
+      "outlet_margin_C": -211.29691456826748,
+      "terminal_ratio": -0.0042176347804311985,
+      "pump_kWh": 478.92105336369065,
+      "feasible": false
+    }
+  ]
+}

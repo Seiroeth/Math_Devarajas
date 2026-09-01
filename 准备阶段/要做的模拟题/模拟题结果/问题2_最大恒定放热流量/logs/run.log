@@ -1,0 +1,8 @@
+2026-08-25 21:15:27,104 | ERROR | INFEASIBLE PRECHECK: q=0 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}; bisection has no feasible lower bracket
+2026-08-25 21:15:33,479 | INFO | infeasible grid run=1 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:39,903 | INFO | infeasible grid run=2 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:46,269 | INFO | infeasible grid run=3 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:46,524 | INFO | infeasible scalar run=1 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:46,779 | INFO | infeasible scalar run=2 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:47,032 | INFO | infeasible scalar run=3 best q=0.00000000 margins={'top_margin_c': -105.27504581707285, 'top_time_s': 10800.0, 'diff_margin_c': 50.0, 'diff_time_s': 0.0, 'diff_pair': 4}
+2026-08-25 21:15:49,374 | ERROR | FINAL INFEASIBLE: q=0 top_margin=-105.275046C top_end=409.724954C thresholds={'UA_scale_if_K_zero': 0.42423317366162167, 'K_scale_if_UA_zero': 0.8511196385263647, 'common_scale_K_and_UA': 0.2900387869235936}

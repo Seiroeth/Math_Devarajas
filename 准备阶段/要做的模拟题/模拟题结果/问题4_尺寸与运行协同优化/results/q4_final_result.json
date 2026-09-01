@@ -1,0 +1,27 @@
+{
+  "status": "infeasible",
+  "conclusion": "即使V=220 m3、无散热且允许消耗80%初始显热，可供能量仍小于需求，尺寸-控制原问题可行域为空。",
+  "demand_energy_MWh": 81.5,
+  "max_initial_usable_energy_MWh": 31.35,
+  "max_deliverable_with_20pct_terminal_MWh": 25.080000000000002,
+  "minimum_energy_deficit_MWh": 56.42,
+  "diagnostic_geometry": {
+    "R_m": 3.2715051187674353,
+    "H_m": 6.543010237534873,
+    "V_m3": 220.0,
+    "surface_m2": 201.7420043801307,
+    "total_mass_kg": 396000.0,
+    "K_W_K": 2440.962406234029,
+    "UA_W_K": [
+      193.67232420492545,
+      86.07658853552245,
+      86.07658853552245,
+      86.07658853552245,
+      193.67232420492545
+    ],
+    "minT_C": 288.92687038832486,
+    "terminal_ratio": -0.0035171899161482068,
+    "tracking_RMSE_MW": 16.121722072860045
+  },
+  "verification_dt_s": 10
+}

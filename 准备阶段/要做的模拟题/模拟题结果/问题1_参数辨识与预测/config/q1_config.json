@@ -1,0 +1,43 @@
+{
+  "geometry": {"radius_m": 2.5, "height_m": 8.0, "layers": 5},
+  "properties": {"density_kg_m3": 1800.0, "cp_j_kg_k": 1500.0, "ambient_c": 25.0},
+  "identification": {
+    "flow_kg_s": 45.0,
+    "inlet_c": 565.0,
+    "initial_c": [290.0, 290.0, 290.0, 290.0, 290.0],
+    "times_h": [0, 1, 2, 3, 4, 5, 6],
+    "observed_layers": [1, 3, 5],
+    "observations_c": [
+      [290.00, 290.00, 290.00],
+      [514.49, 413.65, 331.65],
+      [538.14, 489.28, 433.49],
+      [543.95, 511.22, 478.92],
+      [544.99, 516.70, 493.27],
+      [545.86, 518.95, 497.03],
+      [545.36, 519.65, 498.42]
+    ],
+    "bounds": {"K_w_k": [0.0, 200000.0], "UA_w_k": [0.0, 10000.0]},
+    "seeds": [20260825, 20260826, 20260827]
+  },
+  "prediction": {
+    "flow_kg_s": 55.0,
+    "inlet_c": 565.0,
+    "initial_c": [520.0, 480.0, 420.0, 360.0, 310.0],
+    "duration_s": 14400,
+    "output_step_s": 60
+  },
+  "numerics": {
+    "least_squares_xtol": 1e-12,
+    "least_squares_ftol": 1e-12,
+    "least_squares_gtol": 1e-12,
+    "differential_evolution_tol": 1e-10,
+    "differential_evolution_popsize": 15,
+    "differential_evolution_maxiter": 500,
+    "grid_K_points": 81,
+    "grid_UA_points": 61,
+    "bootstrap_replicates": 500,
+    "rk4_step_s": 1.0,
+    "rk45_rtol": 1e-10,
+    "rk45_atol": 1e-12
+  }
+}

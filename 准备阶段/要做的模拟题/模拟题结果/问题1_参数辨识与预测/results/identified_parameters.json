@@ -1,0 +1,62 @@
+{
+  "K_W_per_K": 27973.462069738016,
+  "UA_W_per_K": 1798.8274920993108,
+  "selected_method": "非线性最小二乘",
+  "parameter_bounds": {
+    "K_W_per_K": [
+      0.0,
+      200000.0
+    ],
+    "UA_W_per_K": [
+      0.0,
+      10000.0
+    ]
+  },
+  "normal_95pct_CI": {
+    "K_W_per_K": [
+      27538.895430074837,
+      28408.028709401195
+    ],
+    "UA_W_per_K": [
+      1792.5952786735734,
+      1805.0597055250482
+    ]
+  },
+  "bootstrap_95pct_CI": {
+    "K_W_per_K": [
+      27536.004363697393,
+      28366.6296614881
+    ],
+    "UA_W_per_K": [
+      1793.1967568039272,
+      1804.6376133458184
+    ]
+  },
+  "covariance_matrix": [
+    [
+      49158.7266524746,
+      -292.95105011239394
+    ],
+    [
+      -292.9510501123936,
+      10.110496715936739
+    ]
+  ],
+  "parameter_correlation": -0.4155358522065356,
+  "scaled_jacobian_condition_number": 4.973808719161358,
+  "fit_metrics": {
+    "SSE": 1.2675336776499986,
+    "RMSE_C": 0.24568017126899322,
+    "MAE_C": 0.2028299996887394,
+    "MaxAbsError_C": 0.4328831097720922
+  },
+  "measurement_error_limit_C": 0.6,
+  "residuals_within_measurement_limit": true,
+  "mass_per_layer_kg": 56548.66776461628,
+  "heat_capacity_per_layer_J_per_K": 84823001.64692442,
+  "energy_balance_max_abs_W": 4.158937372267246e-08,
+  "energy_balance_max_relative": 9.017311661375684e-15,
+  "data_source": "题目表1全部T1、T3、T5观测值（7时刻、21点）",
+  "model": "五层充热集中参数模型；常系数增广矩阵指数求解",
+  "created_by": "solve_q1.py"
+}

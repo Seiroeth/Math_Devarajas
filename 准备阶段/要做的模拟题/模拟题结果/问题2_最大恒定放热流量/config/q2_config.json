@@ -1,0 +1,15 @@
+{
+  "initial_c": [565.0, 555.0, 520.0, 430.0, 330.0],
+  "inlet_c": 290.0,
+  "ambient_c": 25.0,
+  "duration_s": 10800,
+  "dense_step_s": 2.0,
+  "verification_step_s": 0.5,
+  "flow_bounds_kg_s": [0.0, 100.0],
+  "top_temperature_min_c": 515.0,
+  "adjacent_difference_max_c": 150.0,
+  "bisection_tolerance_kg_s": 1e-7,
+  "grid_coarse_step_kg_s": 0.1,
+  "grid_fine_step_kg_s": 0.0005,
+  "seeds": [20260825, 20260826, 20260827]
+}
